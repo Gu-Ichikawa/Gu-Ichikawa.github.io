@@ -1,12 +1,326 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+
+    <title>Portfólio | Gustavo Ichikawa</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#">
+                Gustavo Ichikawa
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos">Projetos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+
+                    <h1 class="display-4 fw-bold">
+                        Olá, eu sou <span>Gustavo</span>
+                    </h1>
+
+                    <p class="lead mt-3">
+                        Estudante de Análise e Desenvolvimento de Sistemas apaixonado por tecnologia, programação e desenvolvimento de projetos.
+                    </p>
+
+                    <a href="#projetos" class="btn btn-primary btn-lg mt-3">
+                        Ver Projetos
+                    </a>
+
+                </div>
+
+                <div class="col-lg-6 text-center">
+
+                    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                         class="img-fluid foto-perfil"
+                         alt="Foto Perfil">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="py-5">
+
+        <div class="container">
+
+            <h2 class="text-center mb-5">Sobre Mim</h2>
+
+            <div class="row">
+
+                <div class="col-lg-8 mx-auto">
+
+                    <p class="text-center">
+                        Atualmente curso Análise e Desenvolvimento de Sistemas na Unicesumar e possuo interesse em desenvolvimento web, programação e projetos de engenharia.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="py-5 bg-light">
+
+        <div class="container">
+
+            <h2 class="text-center mb-5">
+                Habilidades
+            </h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-3">
+                    <div class="card habilidade-card text-center p-4">
+                        <i class="bi bi-filetype-html icone"></i>
+                        <h5 class="mt-3">HTML</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card habilidade-card text-center p-4">
+                        <i class="bi bi-filetype-css icone"></i>
+                        <h5 class="mt-3">CSS</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card habilidade-card text-center p-4">
+                        <i class="bi bi-filetype-js icone"></i>
+                        <h5 class="mt-3">JavaScript</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card habilidade-card text-center p-4">
+                        <i class="bi bi-bootstrap icone"></i>
+                        <h5 class="mt-3">Bootstrap</h5>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="py-5">
+
+        <div class="container">
+
+            <h2 class="text-center mb-5">
+                Projetos
+            </h2>
+
+            <div class="row g-4">
+
+                <!-- Projeto 1 -->
+                <div class="col-md-4">
+
+                    <div class="card projeto-card h-100">
+
+                        <img src="https://picsum.photos/500/300"
+                             class="card-img-top"
+                             alt="Projeto">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Projeto de Engenharia
+                            </h5>
+
+                            <p class="card-text">
+                                Desenvolvimento de projeto acadêmico voltado para engenharia e inovação.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="col-md-4">
+
+                    <div class="card projeto-card h-100">
+
+                        <img src="https://picsum.photos/501/300"
+                             class="card-img-top"
+                             alt="Projeto">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Sistema em C
+                            </h5>
+
+                            <p class="card-text">
+                                Desenvolvimento de estruturas de dados utilizando linguagem C.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="col-md-4">
+
+                    <div class="card projeto-card h-100">
+
+                        <img src="https://picsum.photos/502/300"
+                             class="card-img-top"
+                             alt="Projeto">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Portfólio Web
+                            </h5>
+
+                            <p class="card-text">
+                                Desenvolvimento de website responsivo utilizando HTML, CSS e Bootstrap.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="py-5 bg-light">
+
+        <div class="container">
+
+            <h2 class="text-center mb-5">
+                Contato
+            </h2>
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-6">
+
+                    <form id="formContato">
+
+                        <div class="mb-3">
+                            <input type="text"
+                                   class="form-control"
+                                   placeholder="Seu nome"
+                                   required>
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="email"
+                                   class="form-control"
+                                   placeholder="Seu email"
+                                   required>
+                        </div>
+
+                        <div class="mb-3">
+                            <textarea class="form-control"
+                                      rows="5"
+                                      placeholder="Sua mensagem"
+                                      required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">
+                            Enviar
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center p-4">
+
+        <p class="mb-0">
+            © 2026 - Gustavo Ichikawa
+        </p>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,85 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #0d1b2a;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #ff0000 !important;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #00b4d8 !important;
+}
+/* HERO */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    padding-top: 80px;
+}
+
+.hero span {
+    color: #0077b6;
+}
+
+.foto-perfil {
+    width: 300px;
+}
+
+/* HABILIDADES */
+
+.habilidade-card {
+    border: none;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+
+.habilidade-card:hover {
+    transform: translateY(-10px);
+}
+
+.icone {
+    font-size: 50px;
+    color: #0077b6;
+}
+
+/* PROJETOS */
+
+.projeto-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.projeto-card:hover {
+    transform: scale(1.03);
+}
+
+/* FORM */
+
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #0d1b2a;
+    color: white;
+}
