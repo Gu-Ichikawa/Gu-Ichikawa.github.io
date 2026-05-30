@@ -5,7 +5,7 @@ const backToTopButton = document.querySelector(".back-to-top");
 const typingText = document.getElementById("typingText");
 const menu = document.getElementById("menu");
 
-const typingWords = ["C", "C++", "Java", "HTML", "CSS"];
+const typingWords = ["Engenharia", "C", "C++", "Java", "HTML", "CSS", "Gestão de Projetos"];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
