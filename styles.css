@@ -476,6 +476,101 @@ img {
     opacity: 0.86;
 }
 
+.curriculum-accordion {
+    display: grid;
+    gap: 1rem;
+}
+
+.curriculum-accordion .accordion-item {
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--panel);
+    box-shadow: var(--shadow);
+}
+
+.curriculum-accordion .accordion-button {
+    gap: 0.85rem;
+    color: var(--text);
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: none;
+    font-weight: 800;
+}
+
+.curriculum-accordion .accordion-button i {
+    color: var(--accent);
+    font-size: 1.2rem;
+}
+
+.curriculum-accordion .accordion-button::after {
+    filter: invert(1);
+}
+
+.curriculum-accordion .accordion-button:not(.collapsed) {
+    color: var(--text);
+    background: rgba(46, 230, 166, 0.1);
+}
+
+.curriculum-accordion .accordion-body {
+    display: grid;
+    gap: 1rem;
+    padding: 1.25rem;
+    color: var(--muted);
+    background: rgba(8, 10, 15, 0.2);
+}
+
+.curriculum-entry {
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.curriculum-entry h4 {
+    margin: 0 0 0.45rem;
+    color: var(--text);
+    font-size: 1.05rem;
+    font-weight: 800;
+}
+
+.curriculum-entry p {
+    margin: 0;
+    line-height: 1.7;
+}
+
+.curriculum-list {
+    display: grid;
+    gap: 0.65rem;
+    margin: 0.85rem 0 0;
+    padding-left: 1.15rem;
+    color: var(--muted);
+    line-height: 1.65;
+}
+
+.curriculum-list-spaced {
+    margin-top: 0;
+}
+
+.curriculum-list li::marker {
+    color: var(--accent);
+}
+
+.curriculum-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.curriculum-tags span {
+    display: inline-flex;
+    padding: 0.55rem 0.8rem;
+    border: 1px solid rgba(46, 230, 166, 0.28);
+    border-radius: 999px;
+    color: var(--text);
+    background: rgba(46, 230, 166, 0.08);
+    font-weight: 700;
+}
+
 .contact-panel {
     display: grid;
     grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr);
